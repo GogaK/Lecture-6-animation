@@ -1,7 +1,83 @@
 body {
 	background-image: url("../images/dark side of the moon.png");
 	background-repeat: repeat;
-	background-position: bottom center;
-	
-	
+	background-position: top center;
+
+}
+
+
+
+.s-1{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 60%;
+	left: 44%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+
+
+
+}
+
+
+.pink-1{
+	position: absolute;
+	display: inherit;
+
+}
+/*
+.pink-1:hover {
+	  animation-direction: alternate-reverse;
+
+
+}*/
+ div{
+  width: 100px;
+  height: 100px;
+  transition-property: width;
+  transition-duration: 5s;
+  transition-delay: 4s;
+}
+
+
+@keyframes pink-1 {
+  from {top: 0px;}
+  to {top: 120px;}
+
+
+}
+
+div:hover {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: pink-1 5s;
+  animation-iteration-count: 1 infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  
+ 
+
+}
+
+audio {
+	display: block;
+	white-space: pre;
+	background: #333;
+	color: white; 
+	padding: 10px;
+	font: 11px Monaco, MonoSpace;
+	width: 460px;
+	float: right;
+	overflow: auto;
+	position: relative;
+	position: absolute;
+	top: 97%;
+	right: 59%;
+	-webkit-transform: translate(-50%, -50%);
+	 -ms-transform: translate(-50%, -50%);
+	 transform: translate(-50%, -50%);
 }
